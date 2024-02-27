@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS CDN Links-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Bill Gates Profile</title>
+</head>
+<body>
+
+  <!--nav bar using nav-piils-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <!--Here profile tab is activated using active property-->
+          <a class="nav-link active" href="./index.html">Profile</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Contact Us</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="./billGates.html">Bill Gates Profile</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="./jeffBezos.html">Jeff Bezos Profile</a></li>
+            <li> 
+              <hr class="dropdown-divider">
+            </li>
+        </li>
+        <li><a class="dropdown-item" href="./mukeshAmbani.html">Mukesh ambani Profile</a></li>
+        <hr class="dropdown-divider">
+        <li><a class="dropdown-item" href="./ratanTata.html">Ratan Tata Profile</a></li>
+        <li>
+      </ul>
+      </li>
+      </ul>
+    </nav>
+  </div>
+<br>
+<!--bill gates profile using cards properties-->
+  <div class="container">
+    <h1 style="text-align: center;">Bill Gates Profile</h1>
+        <div class="row justify-content-center">      
+          <div class="col col-lg-4 col-md-3 col-sm-3">
+        <div class="card border-success" >
+          <div class="card">
+            <img class="card-img-top" src="./images/Billgates.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Bill Gates turned his fortune from software firm Microsoft into diversified holdings
+              including investments in zero-carbon energy companies. In May 2021, Bill and Melinda Gates each announced
+              on Twitter they were ending their marriage after 27 years. They still co-chair the charitable Gates
+              Foundation. Gates, who cofounded Microsoft with Paul Allen (d. 2018) in 1975, transferred at least $6
+              billion worth of shares in public companies to Melinda as part of the divorce settlement. As of March
+              2020, when Gates stepped down from the Microsoft board, he owned about 1.3% of the software and computing
+              company's shares.</p>
+              <!--this is button link which redirect to wikipedia of bill gates-->
+            <a href="https://en.wikipedia.org/wiki/Bill_Gates" class="btn btn-primary" target="_blank">Check Bill's Profile</a>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
